@@ -9,7 +9,7 @@ on:
     - 'lambda/**'
 
 jobs:
-  deploy-lambda:
+  deploylambda:
     runs-on:  ubuntu-latest
 
     steps:
