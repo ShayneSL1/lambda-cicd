@@ -9,9 +9,8 @@ on:
     - 'lambda/**'
 
 jobs:
-  deploylambda:
+  deploy-lambda:
     runs-on:  ubuntu-latest
-
     steps:
       - uses: actions/checkout@v2
 
